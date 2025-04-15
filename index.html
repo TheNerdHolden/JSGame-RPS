@@ -22,7 +22,19 @@
                 <!-- <img src="" alt="heads"> -->
             </button>
         </section>
-        
+        <section id="output">
+            <h2>Game Result</h2>
+            <p>You picked <span id="prediction"> </span>.</p>
+            <p>The computer chose <span id="compChoice"> </span>.</p>
+            <p>That's a <span id="result"> </span>.</p>
+        </section>
+        <section id="storage">
+            <h2>Score Board</h2>
+            <p>You've played <span id="count">0</span> games.</p>
+            <p>You have <span id="wins">0</span> wins, <span id="losses">0</span> losses, and <span id="ties">0</span> ties.</p>
+            <button onclick="resetScore()" id="reset">Reset Score</button>
+        </section>
     </main>
+    <script src="js/logicRPS.js"></script>
 </body>
 </html>
