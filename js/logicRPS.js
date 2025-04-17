@@ -25,7 +25,7 @@ function runGame(x) {
         status = "tie";
         numTies++;
     } else if (pick === 'rock' && choice === 'paper') {
-        status = "lose";
+        status = "loss";
         numLoss++;
     } else if (pick === 'rock' && choice === 'scissors') {
         status = "win";
@@ -37,10 +37,10 @@ function runGame(x) {
         status = "tie";
         numTies++;
     } else if (pick === 'paper' && choice === 'scissors') {
-        status = "lose";
+        status = "loss";
         numLoss++;
     } else if (pick === 'scissors' && choice === 'rock') {
-        status = "lose";
+        status = "loss";
         numLoss++;
     } else if (pick === 'scissors' && choice === 'paper') {
         status = "win";

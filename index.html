@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript Game - Rock, Paper, Scissors</title>
-    <!-- stylesheet link  -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
     <main>
@@ -13,20 +13,20 @@
         <section id="choice">
             <h2>Pick rock, paper, or scissors</h2>
             <button id="rock" onclick="runGame('rock')">
-                <!-- <img src="" alt="heads"> -->
+                <img id="r-img" src="svg/noun-rock-hand-341559.svg" alt="rock">
             </button>
             <button id="paper" onclick="runGame('paper')">
-                <!-- <img src="" alt="heads"> -->
+                <img id="p-img" src="svg/noun-paper-hand-341558.svg" alt="paper">
             </button>
             <button id="scissors" onclick="runGame('scissors')">
-                <!-- <img src="" alt="heads"> -->
+                <img id="s-img" src="svg/noun-scissors-hand-341564.svg" alt="scissors">
             </button>
         </section>
         <section id="output">
             <h2>Game Result</h2>
-            <p>You picked <span id="prediction"> </span>.</p>
-            <p>The computer chose <span id="compChoice"> </span>.</p>
-            <p>That's a <span id="result"> </span>.</p>
+            <p>You picked <span id="prediction"> </span></p>
+            <p>The computer chose <span id="compChoice"> </span></p>
+            <p>That's a <span id="result"> </span></p>
         </section>
         <section id="storage">
             <h2>Score Board</h2>

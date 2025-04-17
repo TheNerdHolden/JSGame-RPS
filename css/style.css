@@ -1,0 +1,28 @@
+body {
+    width: 65%;
+    margin: auto;
+    background-color: rgb(5, 5, 89);
+}
+h1, h2, p {
+    color: whitesmoke;
+}
+h1 {
+    text-align: center;
+}
+hr {
+    rotate: 90deg;
+}
+header {
+    background-color: rgb(5, 5, 89);
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+main section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
