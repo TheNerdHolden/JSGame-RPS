@@ -12,17 +12,26 @@ h1 {
 hr {
     rotate: 90deg;
 }
-header {
-    background-color: rgb(5, 5, 89);
+section {
+    border: 2px solid #FFF;
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: #333;
 }
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 1rem;
 }
 main section {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.images {
+    width: 100%;
+    display: flex;
     justify-content: space-around;
     align-items: center;
 }
