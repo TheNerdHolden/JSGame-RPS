@@ -23,15 +23,12 @@ main {
     grid-template-columns: 1fr;
     grid-gap: 1rem;
 }
-main section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+img {
+    width: 180px;
+    height: auto;
 }
-.images {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+section.choice {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
 }
