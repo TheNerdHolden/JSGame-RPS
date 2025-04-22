@@ -11,25 +11,33 @@
         <h1>Rock, Paper, Scissors</h1>
         <hr>
         <section id="choice">
-            <h2>Pick rock, paper, or scissors</h2>
-            <button id="rock" onclick="runGame('rock')">
-                <img id="r-img" src="svg/noun-rock-hand-341559.svg" alt="rock">
-            </button>
-            <button id="paper" onclick="runGame('paper')">
-                <img id="p-img" src="svg/noun-paper-hand-341558.svg" alt="paper">
-            </button>
-            <button id="scissors" onclick="runGame('scissors')">
-                <img id="s-img" src="svg/noun-scissors-hand-341564.svg" alt="scissors">
-            </button>
+            <div class="choiceheader">
+                <h2>Pick rock, paper, or scissors</h2>
+            </div>
+            <div class="buttons">
+                <button id="rock" onclick="runGame('rock')">
+                    <img id="r-img" src="svg/noun-rock-hand-341559.svg" alt="rock">
+                </button>
+                <button id="paper" onclick="runGame('paper')">
+                    <img id="p-img" src="svg/noun-paper-hand-341558.svg" alt="paper">
+                </button>
+                <button id="scissors" onclick="runGame('scissors')">
+                    <img id="s-img" src="svg/noun-scissors-hand-341564.svg" alt="scissors">
+                </button>
+            </div>  
         </section>
         <section id="output">
-            <h2>Game Result</h2>
+            <div class="outputheader">
+                <h2>Game Result</h2>
+            </div>
             <p>You picked <span id="prediction"> </span></p>
             <p>The computer chose <span id="compChoice"> </span></p>
             <p>That's a <span id="result"> </span></p>
         </section>
         <section id="storage">
-            <h2>Score Board</h2>
+            <div class="storageheader">
+                <h2>Score Board</h2>
+            </div>
             <p>You've played <span id="count">0</span> games.</p>
             <p>You have <span id="wins">0</span> wins, <span id="losses">0</span> losses, and <span id="ties">0</span> ties.</p>
             <button onclick="resetScore()" id="reset">Reset Score</button>

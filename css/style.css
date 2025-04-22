@@ -9,25 +9,28 @@ h1, h2, p {
 h1 {
     text-align: center;
 }
-hr {
-    rotate: 90deg;
-}
 section {
     border: 2px solid #FFF;
     margin: 1rem 0;
     padding: 1rem;
     background-color: #333;
+    width: 600px;
 }
 main {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 img {
     width: 180px;
     height: auto;
 }
-section.choice {
+.choiceheader, .buttons, .outputheader, .storageheader {
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+.buttons {
+    justify-content: space-between;
 }
